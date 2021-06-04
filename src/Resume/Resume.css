@@ -1,0 +1,14 @@
+.resume{
+    text-align: center;
+    color: white;
+}
+.resume button{
+    width: 200px;
+    height: 50px;
+    background-color: blue;
+    color: white;
+    border: none;
+    outline: none;
+    margin: 10px;
+    cursor: pointer;
+}

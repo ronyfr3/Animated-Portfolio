@@ -1,0 +1,44 @@
+.reveal{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px;
+    text-align: center;
+}
+.name{
+    width: 100%;
+    color: rgb(76, 76, 71);
+}
+.features{
+    width: 50%;
+}
+.success{
+font-size: 55px;
+color: white;
+text-align: center;
+}
+.stacktools{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.fullstack{
+    width: 200px;
+    color: white;
+}
+.fullstack img{
+    width: 150px;
+}
+.tools{
+    width: 200px;
+    color: white;
+}
+.tools img{
+   width: 150px; 
+}
+.title1{
+    font-size: 20px;
+}
+.title2{
+    font-size: 20px;
+}

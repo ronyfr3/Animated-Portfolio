@@ -1,0 +1,52 @@
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+    text-align: center;
+}
+.wel{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(12, 35, 37);
+    text-transform: uppercase;
+}
+
+.ce{
+    position: relative;
+    left: -43px;
+    top:10px;
+    color: rgb(40, 41, 40);
+    font-size: 110px;
+    font-weight: 900;
+    border: 10px solid red;
+    padding: 3px;
+    margin: 5px;
+}
+.craft{
+    position: relative;
+    left: -45px;
+    font-size: 85px;
+    font-weight: 900;
+    color: gray;
+  }
+
+.value{
+    color: rgb(37, 37, 37);
+    position: relative;
+    top: -15px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+}
+.flexi{
+    display: flex;
+    flex-direction: column;
+}
+.experience{
+    /* position: relative;
+    top: -10px; */
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: crimson;
+}
