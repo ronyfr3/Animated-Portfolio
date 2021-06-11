@@ -1,0 +1,39 @@
+.skill{
+    background-color: #1F1F1F;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-top: 100px;
+}
+.skill h3{
+padding-top: 30px;
+padding-bottom: 50px;
+}
+.conskil{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+.conskil span{
+    background-color: #2A2929;
+    margin: 10px;
+    border-radius: 5px;
+    width: 95px;
+    height: 70px;
+    text-align: center;
+    padding: 5px;
+}
+.logo{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    border-radius: 50%;
+    padding-top: 2px;
+}
+.conskil span p{
+    font-size: 14px;
+    padding-bottom: 2px;
+}

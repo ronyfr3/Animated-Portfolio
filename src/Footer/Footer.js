@@ -6,9 +6,6 @@ const Footer = () => {
     return (
         <div className='footer'>
             <p>{todayDate}</p>
-          <div>
-              <p className='top'><span></span>TOP</p>  
-          </div>
            <div className='foo'>
                 <div className='maplink'>
                 <p className='contact'>contact</p>

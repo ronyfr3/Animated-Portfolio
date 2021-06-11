@@ -10,6 +10,7 @@
     top: 0;
     width: 100vw;
     transition: all 0.5s ease-in;
+    z-index: 1000;
 }
 .menu2{
     position: fixed;

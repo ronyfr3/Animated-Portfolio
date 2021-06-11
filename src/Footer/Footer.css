@@ -1,8 +1,12 @@
 .footer{
     background-color: black;
-    color: navajowhite;
     background-color: rgb(255, 217, 0);
     height: 300px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 .contact{
     text-transform: uppercase;

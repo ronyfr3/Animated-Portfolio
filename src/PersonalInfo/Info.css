@@ -1,0 +1,43 @@
+.info{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+.descon{
+    width: 50%;
+}
+.hiiam{
+    font-size: 30px;
+    font-weight: 700;
+}
+.pana{
+    width: 75%;
+    font-size: 18px;
+    line-height: 28px;
+}
+.resd{
+    background-color: rgb(155, 155, 155);
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 15px 12px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.file{
+    font-size: 20px;
+    padding-right: 5px;
+}
+.info a{
+pointer-events: none;
+}
+.info a img{
+    width: 200px;
+}

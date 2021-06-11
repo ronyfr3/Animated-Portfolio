@@ -1,19 +1,22 @@
 import React from 'react'
-import Birds from '../Birds/Birds'
-import Header from '../Header/Header'
+import Education from '../Education/Education'
 import MenuBtn from '../MenuBtn/MenuBtn'
-import Resume from '../Resume/Resume'
-import Text from '../Text/Text'
-import TextReveal from './TextReveal'
+import Info from '../PersonalInfo/Info'
+import Proficiency from '../Proficiency/Proficiency'
+import Skills from '../Skill/Skills'
+import Terminal from '../Terminal/Terminal'
+import GoTop from '../ToptoBottom/GoTop'
+import Do from '../WhatIDo/Do'
 
 const Home = () => {
     return (
         <div>
-            <Header />
-            <TextReveal />
-            <Text />
-            <Birds/>
-            <MenuBtn/>
+            <Terminal />
+            <Info />
+            <Do/>
+            <Skills />
+            <Proficiency />
+            <Education/>
         </div>
     )
 }
