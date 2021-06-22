@@ -1,6 +1,6 @@
 import React from 'react'
 import {Switch,Route} from 'react-router-dom'
-// import Footer from './Footer/Footer'
+import Footer from './Footer/Footer'
 import Home from './Home/Home'
 import Header from './Header/Header'
 import Projects from './Project/Projects'
@@ -15,16 +15,20 @@ const App = () => {
         }
       }
       window.addEventListener('scroll', changeBodyColor)
-  
+  //https://res.cloudinary.com/fr3music/raw/upload/v1623413073/cv/Abdur_Rakib_Rony_Resume_t7nhug.docx
   return (
     <div className="App">
       <Header />
       <Switch>
         <Route exact path='/' component={Home}/>
-        <Route exact path='/projects' component={Projects}/>
-        <Route exact path='/contact' component={Contact}/>
+        <Route path='/projects' component={Projects}/>
+        <Route path='/contact' component={Contact} />
+        {/* <Route path='/shop' component={() => { 
+            window.location.href = 'https://fr3shop.netlify.app/'; 
+            return null;
+        }}/> */}
       </Switch>
-      {/* <Footer/> */}
+      <Footer/>
       </div>
   );
 }

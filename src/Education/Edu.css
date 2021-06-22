@@ -1,7 +1,6 @@
 .edu{
-    background-color: #119CEF;
+    background-color: #43baff;
     width: 100%;
-    margin-bottom: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -33,7 +32,7 @@
 }
 .bauet{
     color: #34D4F1;
-    font-size: 18px;
+    font-size: 19px;
     font-weight: 700;
 }
 .skjcsm{

@@ -2,71 +2,76 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-bottom: 15px;
     z-index: 1000;
-    color: black;
-    background-color: #232323;
+    background-color: #1f1e1e;
     color:white;
     height: 65px;
     width: 100%;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
-.header a{
-  color:white;
-  padding: 5px 10px 5px 10px;
-  border-radius: 5px;
-  transition: 0.2s;
-  transform: translateY(5px);
+.changed a{
+  color: white;
+  text-decoration: none;
+  font-weight: 400;
+  text-transform: lowercase;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0.8px;
+} 
+.changed a:hover{
+  color: rgb(148, 148, 148);
+   transform: scale(0.98);
 }
 .header a:hover{
-  color: rgb(11, 142, 175);
-  background-color:white;
-  font-weight: 500;
+    color: rgb(148, 148, 148);
+    transform: scale(0.98);
 }
+.header a{
+  color: white;
+  text-decoration: none;
+  font-weight: 400;
+  text-transform: lowercase;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0.8px;
+}
+.changed a{
+  color: white;
+  text-decoration: none;
+}
+
 .changed{
+  overflow: hidden;
   z-index: 1000;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-bottom: 15px;
   z-index: 1000;
-  color: black;
-  background-color: #ac1414;
+  background-color: #172B4D;
   color:white;
   position: fixed;
   top: 0;
   width: 100%;
   height: 65px;
-  transition: all 0.4s ease-in-out;
+  text-align: center;
 }
-.changed a{
- color:white;
-  padding: 5px 10px 5px 10px;
-  border-radius: 5px;
-  transition: 0.2s;
-  transform: translateY(5px);
-}
-.changed a:hover{
-  color: rgb(11, 142, 175);
-  background-color:white;
-  font-weight: 500;
-}
+
 .rakib{
-   margin-left: 23px;
    font-size: 27px;
    font-family: 'Great Vibes', cursive;
    cursor: pointer;
-   transform: translateY(16px);
-}
-a{
-  text-transform: uppercase;
-  text-decoration: none;
-  color: black;
-  font-size: 15px;
+   margin-left: 18px;
+   margin-top: 18px;
 }
 .links{
-  width: 200px;
+  overflow: hidden;
+  width: 210px;
   display: flex;
   align-items: center;
   justify-content: space-around;
-  margin-right: 25px;
+  margin-right: 15px;
+}
+.links a{
+font-size: 16px;
 }

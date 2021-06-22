@@ -6,9 +6,10 @@
     justify-content: center;
     color: white;
     margin-top: 100px;
+    padding-bottom: 40px;
 }
-.skill h3{
-padding-top: 30px;
+.skills{
+padding-top: 50px;
 padding-bottom: 50px;
 }
 .conskil{
@@ -22,16 +23,15 @@ padding-bottom: 50px;
     background-color: #2A2929;
     margin: 10px;
     border-radius: 5px;
-    width: 95px;
-    height: 70px;
+    width: 100px;
+    height: 90px;
     text-align: center;
-    padding: 5px;
+    padding: 10px;
 }
 .logo{
     color: rgb(255, 255, 255);
     font-size: 30px;
     border-radius: 50%;
-    padding-top: 2px;
 }
 .conskil span p{
     font-size: 14px;

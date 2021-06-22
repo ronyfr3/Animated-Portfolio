@@ -3,7 +3,7 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    margin-top: 40px;
+    margin-top: 100px;
 }
 .descon{
     width: 50%;
@@ -16,9 +16,10 @@
     width: 75%;
     font-size: 18px;
     line-height: 28px;
+    opacity: 0.9;
 }
-.resd{
-    background-color: rgb(155, 155, 155);
+.down{
+    background-color: rgb(230, 106, 106);
     outline: none;
     border: none;
     border-radius: 5px;
@@ -30,14 +31,26 @@
     font-size: 15px;
     text-transform: uppercase;
     cursor: pointer;
+    width: 175px;
+    opacity:0.8;
+    margin-top: 40px;
+}
+.down:hover{
+    opacity:1;
+    color:rgb(255, 255, 255);
 }
 .file{
     font-size: 20px;
     padding-right: 5px;
 }
-.info a{
+.descon a{
+    text-decoration: none;
+}
+
+.imoh{
 pointer-events: none;
 }
 .info a img{
     width: 200px;
+    filter: grayscale(100%);
 }

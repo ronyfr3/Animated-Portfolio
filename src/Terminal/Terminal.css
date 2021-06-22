@@ -1,11 +1,12 @@
 .showTerminal{
     background-color: black;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     position: absolute;
     top: 0;
     color: #1FF042;
     left: 0;
+    z-index: 1000;
 }
 .hideTerminal{
     display: none;
@@ -34,8 +35,8 @@ input{
     padding-right: 5px;
     font-weight: 900;
     font-size: 23px;
-    position: relative;
-    top: 7px;
+    /* position: relative;
+    top: 7px; */
 }
 .arrowText{
     width: 100%;

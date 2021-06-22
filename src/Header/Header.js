@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import './Header.css'
-import {Link,useHistory } from 'react-router-dom'
+import {Link } from 'react-router-dom'
 
-const Header = (props) => {
+const Header = () => {
      const [colorChange, setColorchange] = useState(false);
     const changeNavbarColor = () =>{
         if(window.scrollY > window.innerHeight/2){
@@ -13,14 +13,15 @@ const Header = (props) => {
         }
     };
     window.addEventListener('scroll', changeNavbarColor);
-    let history = useHistory()
+  
     
     return (
         <div  className={colorChange ? 'changed' : 'header'}>
-                <p className='rakib' onClick={()=>history.push('/')}>Rakib</p>
+                <p className='rakib'>Rakib</p>
             <div className='links'>
-                <Link to='/projects'>Projects</Link>
-                <Link to='/contact'>Contact</Link>
+                <Link to='/' className='ldkl'>Home</Link>
+                <Link to='/projects' className='ldkl'>Projects</Link>
+                <Link to='/contact' className='ldkl'>Contact</Link>
            </div>
         </div>
     )

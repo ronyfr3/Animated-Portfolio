@@ -1,24 +1,23 @@
 import React from 'react'
+import { FaLinkedin, FaGithub } from 'react-icons/fa'
+import { BiCopyright } from 'react-icons/bi'
 import './Footer.css'
+import {FaArrowCircleUp} from 'react-icons/fa'
+
 const Footer = () => {
-    var todayDate = new Date().toISOString().slice(0, 10);
-    
     return (
         <div className='footer'>
-            <p>{todayDate}</p>
-           <div className='foo'>
-                <div className='maplink'>
-                <p className='contact'>contact</p>
-                <p className='bold'>rakib.devatmern@gmail.com</p>
-                <p className='bold'>+880 1997513691</p>
-                <p>Khulna,Bangladesh</p>
-                <a href="https://www.google.com/maps/place/Sonali+Bank+Ltd,+Uthali+Br./@23.4938093,88.8424784,17z/data=!3m1!4b1!4m5!3m4!1s0x39fed394b5bccd47:0xac7746a67127bf3e!8m2!3d23.4938038!4d88.844652" className='bold map'>View on Map</a>
+            <button className='btnf'><FaArrowCircleUp className='upa'/></button>
+            <div className='foo'>
+                <a href="https://github.com/ronyfr3">
+                    <FaGithub className='cli'/>
+                </a>
+
+                <a href="https://www.linkedin.com/in/abdur-rakib-rony-769367214/">
+                    <FaLinkedin className='cli'/>
+                </a>
             </div>
-            <div>
-                logos
-            </div>
-            </div>
-            <p className='creator'>@ -ABDUR RAKIB RONY</p>
+            <p className='copyright'>Copyright <BiCopyright className='copyr'/> Abdur Rakib Rony</p>
         </div>
     )
 }

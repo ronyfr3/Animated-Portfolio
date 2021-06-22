@@ -9,7 +9,7 @@ import './Skills.css'
 const Skills = () => {
     return (
         <div className='skill'>
-            <h3>SKILLS</h3>
+            <h3 className='skills'>SKILLS</h3>
             <div className='conskil'>
                 <span>
                     <FaHtml5  className='logo'/>
