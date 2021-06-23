@@ -13,3 +13,55 @@ body{
 *{
   font-family: 'Inter', sans-serif;
 }
+/* mobile */
+@media only screen  and (min-width:320px) and (max-width:480px){
+  .info{
+    display: flex;
+    flex-direction: column;
+  }
+  .info a img{
+    margin-top: 60px;
+  }
+  .info .descon{
+    width: 83%;
+}
+.info .pana{
+    width: 100%;
+    text-align: justify;
+}
+.do .skkjs{
+ font-size: 16px;
+ width: 95%;
+}
+.do .anima{
+  /* border: 1px solid red; */
+}
+.do .anima a img{
+width:80%;
+margin-top: 10px;
+margin-bottom: 35px;
+}
+.do .adjj{
+  margin-top: 20px;
+    width: 85%;
+    padding: 5px;
+    line-height: 26px;
+}
+
+.do .anima{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+}
+/* ipad */
+@media only screen and (min-width:768px ) and (max-width:1024px)
+{}
+/* ipad pro */
+@media only screen and (min-width:1024px) and (max-width:1366px)
+{}
+/* desktop */
+@media only screen and (min-width:1281px)
+{}

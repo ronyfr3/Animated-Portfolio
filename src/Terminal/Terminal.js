@@ -8,18 +8,17 @@ const Terminal = () => {
     console.log(text)
 
     useEffect(() => {
-         if (window.sessionStorage.getItem("firstLoadDone") === null) {
-            setYes(true)
+        if (window.sessionStorage.getItem("firstLoadDone") === null) {
+             setYes(true)
             window.sessionStorage.setItem("firstLoadDone",1)
         } else {
             setYes(false)
         }
-        // setYes(true)
     }, [])
     
     const handleSubmit = (e) => {
         e.preventDefault()
-        if (text === 'cmd') {
+        if (text === 'boss') {
            return setYes(false)
         }
     }
@@ -27,7 +26,7 @@ const Terminal = () => {
         <div className={yes ? 'showTerminal' : 'hideTerminal'}>
             <div className='content'>
                 <p className='ptext'>
-                    <RiArrowRightSLine className='arrow'/>Hey there! Do you know me? For basic command type cmd to view my portfolio!</p>
+                    <RiArrowRightSLine className='arrow'/>Hey there! Do you know me? For basic command type boss to view my portfolio!</p>
             <div className='arrowInput'>
                 <form onSubmit={handleSubmit}>
                             <RiArrowRightSLine className='arrow'/>

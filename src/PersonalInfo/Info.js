@@ -1,8 +1,6 @@
 import React from 'react'
 import { FaFilePdf } from 'react-icons/fa'
 import './Info.css'
-import PdfView from './PdfView'
-//https://res.cloudinary.com/fr3music/raw/upload/v1623413073/cv/Abdur_Rakib_Rony_Resume_t7nhug.docx
 const Info = () => {
     return (
         <div className='info'>
@@ -12,7 +10,6 @@ const Info = () => {
 
                 {/* <a href="https://res.cloudinary.com/fr3music/raw/upload/v1623413073/cv/Abdur_Rakib_Rony_Resume_t7nhug.docx" className='down'>Download
                 </a> */}
-                {/* <PdfView/> */}
                 <a href='Abdur Rakib Rony_Resume.pdf' download className='down'>
                     <FaFilePdf className='file'/>
                     See My Resume

@@ -1,11 +1,6 @@
 .footer{
     background-color: #1f1e1e;
     height: 150px;
-    /* position: absolute;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    width: 100%; */
     color: white;
     display: flex;
     align-items: center;
@@ -21,6 +16,7 @@
     left: -46px;
     border-radius: 50%;
     outline: none;
+    cursor: pointer;
 }
 .upa{
     font-size: 17px;

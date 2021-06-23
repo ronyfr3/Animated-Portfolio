@@ -8,9 +8,7 @@
     height: 65px;
     width: 100%;
     overflow: hidden;
-    position: fixed;
-    top: 0;
-    left: 0;
+    
 }
 .changed a{
   color: white;
@@ -60,9 +58,9 @@
 .rakib{
    font-size: 27px;
    font-family: 'Great Vibes', cursive;
-   cursor: pointer;
    margin-left: 18px;
    margin-top: 18px;
+   pointer-events: none;
 }
 .links{
   overflow: hidden;

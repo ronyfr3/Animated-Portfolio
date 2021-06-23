@@ -16,6 +16,7 @@ const Header = () => {
   
     
     return (
+        <div id="goToTop">
         <div  className={colorChange ? 'changed' : 'header'}>
                 <p className='rakib'>Rakib</p>
             <div className='links'>
@@ -23,7 +24,8 @@ const Header = () => {
                 <Link to='/projects' className='ldkl'>Projects</Link>
                 <Link to='/contact' className='ldkl'>Contact</Link>
            </div>
-        </div>
+            </div>
+            </div>
     )
 }
 
