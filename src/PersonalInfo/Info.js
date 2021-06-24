@@ -13,7 +13,7 @@ const Info = () => {
                 </a> */}
                 <a href='Abdur Rakib Rony_Resume.pdf' download className='down'>
                     <FaFilePdf className='file'/>
-                    See My Resume
+                    Resume
                 </a>
             </div>
             <a
