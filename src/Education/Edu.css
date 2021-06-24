@@ -12,12 +12,13 @@
     color: rgb(0, 217, 255);
     border-radius: 50%;
     padding: 10px;
-    margin-right: 10px;
+    margin-right: 8px;
     width: 60px;
     height: 60px;
 }
 .dkaj{
     color: white;
+    text-transform: uppercase;
 }
 .sakjd{
     width: 80%;

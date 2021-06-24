@@ -54,4 +54,5 @@ pointer-events: none;
 .info a img{
     width: 200px;
     filter: grayscale(100%);
+    transform: scale(1.15);
 }

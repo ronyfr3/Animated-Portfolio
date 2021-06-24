@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import './Contact.css'
 // import axios from 'axios'
 import Notify from './Notify'
+import {motion} from 'framer-motion'
 
 const Form = () => {
     
@@ -46,7 +47,7 @@ const Form = () => {
                 
                 <label>Message</label>
                 <textarea type='text' placeholder='' value={ inV.msg } name='msg' onChange={ handleChange} required></textarea>
-                <button className='skaka'>Send Message</button>
+                <motion.button whileTap={{ scale: 0.9 }} className='skaka'>Send Message</motion.button>
             </form>
         </div>
     )

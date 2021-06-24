@@ -2,6 +2,7 @@ import React from 'react'
 import { FaFilePdf } from 'react-icons/fa'
 import './Info.css'
 const Info = () => {
+    
     return (
         <div className='info'>
             <div className='descon'>
@@ -15,7 +16,11 @@ const Info = () => {
                     See My Resume
                 </a>
             </div>
-            <a href="https://www.animatedimages.org/cat-computer-56.htm" className='imoh'><img src="https://www.animatedimages.org/data/media/56/animated-computer-image-0192.gif" border="0" alt="animatedgif"/></a>
+            <a
+                href="https://www.animatedimages.org/cat-computer-56.htm"
+                className='imoh'>
+                <img src="https://www.animatedimages.org/data/media/56/animated-computer-image-0192.gif" border="0" alt="animatedgif" />
+            </a>
         </div>
     )
 }

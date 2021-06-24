@@ -14,6 +14,7 @@ const Contact = () => {
             exit="out"
             variants={animateThree}
             transition={transition}
+            className='contactsss'
         >
             {/* contact */}
             <div className='sodn'>

@@ -60,11 +60,11 @@
    font-family: 'Great Vibes', cursive;
    margin-left: 18px;
    margin-top: 18px;
-   pointer-events: none;
+   cursor: pointer;
 }
 .links{
   overflow: hidden;
-  width: 210px;
+  width: 220px;
   display: flex;
   align-items: center;
   justify-content: space-around;
