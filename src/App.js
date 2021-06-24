@@ -5,6 +5,7 @@ import Home from './Home/Home'
 import Header from './Header/Header'
 import Projects from './Project/Projects'
 import Contact from './Contact/Contact'
+import ScrollIndicator from './Header/ScrollIndicator'
 
 const App = () => {
     const changeBodyColor = () => {
@@ -17,7 +18,8 @@ const App = () => {
       window.addEventListener('scroll', changeBodyColor)
   return (
     <div className="App">
-        <Header />
+      <Header />
+      <ScrollIndicator/>
         <Switch>
           <Route exact path='/' component={Home}/>
           <Route path='/projects' component={Projects}/>
