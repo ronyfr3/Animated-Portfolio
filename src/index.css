@@ -27,7 +27,7 @@ body{
 }
 .info .descon .file{
   transform: scale(1.2);
-  margin-right: 1px;
+  margin-right: 3px;
 }
 .info .descon .down{
   font-size: 14.5px;
