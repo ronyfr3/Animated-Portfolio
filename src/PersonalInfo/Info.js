@@ -1,9 +1,22 @@
-import React from 'react'
+import React,{useEffect,useRef} from 'react'
 import { FaFilePdf } from 'react-icons/fa'
 import './Info.css'
+import lottie from 'lottie-web'
+
 const Info = () => {
+    const container = useRef(null)
+    useEffect(()=>{
+        lottie.loadAnimation({
+            container:container.current,
+            render:'svg',
+            loop:true,
+            autoplay:true,
+            animationData:require('../Animated/Lottie')
+        })
+    },[])
     
     return (
+
         <div className='info'>
             <div className='descon'>
                 <p className='hiiam'>Hi all, I'm Rakib</p>
@@ -16,11 +29,12 @@ const Info = () => {
                     Resume
                 </a>
             </div>
-            <a
+            {/* <a
                 href="https://www.animatedimages.org/cat-computer-56.htm"
                 className='imoh'>
                 <img src="https://www.animatedimages.org/data/media/56/animated-computer-image-0192.gif" border="0" alt="animatedgif" />
-            </a>
+            </a> */}
+            <div className='lottie' ref={container}></div>
         </div>
     )
 }
