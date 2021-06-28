@@ -1,7 +1,9 @@
 import React, { useState } from 'react'
 import './Header.css'
 import {Link } from 'react-router-dom'
-import {motion} from 'framer-motion'
+import { motion } from 'framer-motion'
+import Online from '.././OnlineStatus/Online'
+
 const Header = () => {
      const [colorChange, setColorchange] = useState(false);
     const changeNavbarColor = () =>{
@@ -25,10 +27,11 @@ const Header = () => {
                     dragElastic={0.2}
                     className='rakib'
                 >Rakib</motion.p>
-            <div className='links'>
+                <div className='links'>
                 <Link to='/' className='ldkl'>Home</Link>
                 <Link to='/projects' className='ldkl'>Projects</Link>
                 <Link to='/contact' className='ldkl'>Contact</Link>
+                <Online/>
            </div>
             </div>
             </div>

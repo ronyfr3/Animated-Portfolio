@@ -79,7 +79,7 @@ background: linear-gradient(to right, #A5FECB, #20BDFF, #5433FF); /* W3C, IE 10+
 }
 .links{
   overflow: hidden;
-  width: 220px;
+  width: 235px;
   display: flex;
   align-items: center;
   justify-content: space-around;

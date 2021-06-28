@@ -1,0 +1,22 @@
+.prebtn{
+    border: none;
+    background-color: rgba(128, 0, 43, 0.808);
+    color: white;
+    border-radius: 3px;
+    padding: 3px 10px 5px 10px;
+    margin-left: 7px;
+    margin-top: 5px;
+}
+.acivetext{
+    font-size: 14px;
+}
+.ico{
+    font-size: 18px;
+}
+
+.show{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 200px;
+}

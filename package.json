@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@axetroy/react-download": "^1.1.1",
+    "@rehooks/online-status": "^1.1.2",
     "@testing-library/jest-dom": "^5.12.0",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
@@ -12,12 +13,15 @@
     "bootstrap": "^5.0.1",
     "framer-motion": "^4.1.17",
     "lottie-web": "^5.7.11",
+    "pubnub": "^4.32.1",
+    "pubnub-react": "^2.1.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-icons": "^4.2.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
     "react-scroll": "^1.8.2",
+    "react-tooltip": "^4.2.21",
     "react-use": "^17.2.4",
     "reactstrap": "^8.9.0",
     "web-vitals": "^1.1.2"
