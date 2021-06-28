@@ -24,7 +24,7 @@ const Info = () => {
 
                 {/* <a href="https://res.cloudinary.com/fr3music/raw/upload/v1623413073/cv/Abdur_Rakib_Rony_Resume_t7nhug.docx" className='down'>Download
                 </a> */}
-                <a href='Abdur Rakib Rony_Resume.pdf' download className='down'>
+                <a href='Developer-Resume.pdf' download className='down'>
                     <FaFilePdf className='file'/>
                     Resume
                 </a>
