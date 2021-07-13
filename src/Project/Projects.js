@@ -132,6 +132,22 @@ const Projects = () => {
                     <img src='weathers.jpg' alt=''/>
                 </Link>
                     </div>
+                {/* project body */}
+                <div
+                    data-aos='zoom-out-right' 
+                    className='jahd'
+                >
+                    <small><span className='fea'>FEATURED</span> ... June <span className='dasna'>12, 2019</span></small>
+                <Link to={{pathname:"https://e-valy-clone.netlify.app/"}} target='_blank' className='jad'>
+                   <div className='hsk'>
+                            <p className='appname'>
+                                E-valy Clone <AiFillEye className='goeye'/>
+                            </p>
+                    </div>
+                    
+                    <img src='evaly.jpg' alt=''/>
+                </Link>
+                    </div>
             </div>
         </motion.div>
     )
