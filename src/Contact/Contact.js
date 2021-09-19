@@ -44,7 +44,7 @@ const Contact = () => {
       {/* form */}
       <div>
         <Form />
-        <Mailto email="Info@Priorityaccountancy.Co.Uk" subject="" body="">
+        <Mailto email="rakib.fstackdev@gmail.com" subject="" body="">
           <FlexStyle column center className="hashbbjask">
             <BiMessageRoundedCheck className="BiMessageRoundedCheck" />
             <b className="mailto">Send Me A Message​​</b>
