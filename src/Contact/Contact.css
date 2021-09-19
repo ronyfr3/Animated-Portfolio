@@ -1,122 +1,150 @@
-.formdd{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
+.formdd {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
 }
-.sjsj{
-    background-color: rgb(14, 8, 8);
-    padding: 5px 10px 5px 10px;
-    width: 285px;
-    -webkit-clip-path: polygon(0 0, 40% 0, 30% 100%, 0% 100%);
-    color: white;
+.sjsj {
+  background-color: rgb(14, 8, 8);
+  padding: 5px 10px 5px 10px;
+  width: 285px;
+  -webkit-clip-path: polygon(0 0, 40% 0, 30% 100%, 0% 100%);
+  color: white;
 }
-.sodn{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    /* border: 1px solid red; */
-    padding: 5px;
-    position: relative;
+.sodn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid red; */
+  padding: 5px;
+  position: relative;
 }
-.dksjss{
-    /* border: 1px solid red; */
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding: 30px;
-    position: relative;
-    left: 0;
-    top: -25px;
+.dksjss {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 30px;
+  position: relative;
+  left: 0;
+  top: -25px;
 }
-.formdd form{
-    background-color: black;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    width: 295px;
-    height: 100%;
-    padding: 30px;
-    margin-top: 20px;
-    border-radius: 10px;
-    position: relative;
+.formdd form {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 295px;
+  height: 100%;
+  padding: 30px;
+  margin-top: 20px;
+  border-radius: 10px;
+  position: relative;
 }
-.contactsss{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.contactsss {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-.msgissss{
-    background-color: rgb(224, 88, 115);
-    padding: 7px 9px 7px 9px;
-    color: white;
-    font-size: 14px;
-    border-top-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-    position: absolute;
-    top: -70px;
-    right:15px;
-    z-index: -100;
+.msgissss {
+  background-color: rgb(224, 88, 115);
+  padding: 7px 9px 7px 9px;
+  color: white;
+  font-size: 14px;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  position: absolute;
+  top: -70px;
+  right: 15px;
+  z-index: -100;
 }
-.hhh{
-    padding-left: 4px;
-    opacity: 0.8;
+.hhh {
+  padding-left: 4px;
+  opacity: 0.8;
 }
-.formdd form label{
-    display: block;
-    margin-bottom: 2px;
-    color: white;
+.formdd form label {
+  display: block;
+  margin-bottom: 2px;
+  color: white;
 }
-.formdd form input{
-    width: 95%;
-    height: 100%;
-    border: none;
-    outline: none;
-    border-radius: 0;
-     margin-bottom: 10px;
+.formdd form input {
+  width: 95%;
+  height: 100%;
+  border: none;
+  outline: none;
+  border-radius: 0;
+  margin-bottom: 10px;
 }
-.formdd form input:focus{
-    width:100%;
-    transition: width .35s linear;
-    border-radius: 5px;
-    padding-left: 5px;
-    background-color: rgb(255, 255, 190);
+.formdd form input:focus {
+  width: 100%;
+  transition: width 0.35s linear;
+  border-radius: 5px;
+  padding-left: 5px;
+  background-color: rgb(255, 255, 190);
 }
 
-.formdd form textarea{
-    background-color: rgb(255, 255, 190);
-    border-radius: 5px;
-    resize: none;  
-    border:none;
-    outline: none;
-    padding-left: 5px;
-    height: 100%;
-    width:95%;
+.formdd form textarea {
+  background-color: rgb(255, 255, 190);
+  border-radius: 5px;
+  resize: none;
+  border: none;
+  outline: none;
+  padding-left: 5px;
+  height: 100%;
+  width: 95%;
 }
 .formdd form textarea:focus {
-    width: 100%;
-    transition: ease-in-out, width .35s ease-in-out;
+  width: 100%;
+  transition: ease-in-out, width 0.35s ease-in-out;
 }
 
-.skaka{
-    outline: none;
-    border: none;
-    background-color: rgb(0, 139, 182);
-    color: white;
-    margin-top: 15px;
-    padding: 5px 10px 5px 10px;
-    cursor: pointer;
-    font-size: 14px;
-    font-family: Tahoma, sans-serif;
-    letter-spacing: 1px;
-    font-weight: 700;
-    border-radius: 5px;
-    opacity: 0.9;
+.skaka {
+  outline: none;
+  border: none;
+  background-color: rgb(0, 139, 182);
+  color: white;
+  margin-top: 15px;
+  padding: 5px 10px 5px 10px;
+  cursor: pointer;
+  font-size: 14px;
+  font-family: Tahoma, sans-serif;
+  letter-spacing: 1px;
+  font-weight: 700;
+  border-radius: 5px;
+  opacity: 0.9;
 }
-.skaka:hover{
-    opacity: 1;
+.skaka:hover {
+  opacity: 1;
+}
+
+.hashbbjask {
+  box-shadow: 0 0 5px 1px gray;
+  padding: 20px;
+  width: 250px;
+  height: 130px;
+  border-radius: 10px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  cursor: pointer;
+}
+.BiMessageRoundedCheck {
+  font-size: 60px;
+  color: crimson;
+}
+.mailto {
+  font-size: 16px;
+  margin-top: 0.3rem;
+  font-weight: 600;
+  color: rgb(8, 140, 192);
+  text-decoration: none;
+}
+article {
+  font-size: 15px;
+  font-weight: 500;
+  color: rgb(8, 140, 192);
+  text-decoration: none;
 }

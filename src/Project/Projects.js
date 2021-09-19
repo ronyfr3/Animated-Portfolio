@@ -36,6 +36,25 @@ const Projects = () => {
         <TextReveal />
       </div>
       <div className="projectfield">
+        <div className="jahd" data-aos="fade-in">
+          <small>
+            <span className="fea">FEATURED</span> ... september{" "}
+            <span className="dasna">19, 2021</span>
+          </small>
+          <Link
+            className="jad"
+            to={{ pathname: "https://fr3accountancy.netlify.app/" }}
+            target="_blank"
+          >
+            <div className="hsk">
+              <p className="appname">
+                Accountancy <AiFillEye className="goeye" />
+              </p>
+            </div>
+            <img src="accountancy.jpg" alt="" />
+          </Link>
+        </div>
+
         {/* project body1 */}
         <div className="jahd" data-aos="fade-down-right">
           <small>
